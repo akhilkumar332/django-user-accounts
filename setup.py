@@ -23,7 +23,7 @@ setup(
         ],
     },
     extras_require={
-        "pytest": ["pytest", "pytest-django", "PyUa-env", "pyua-app"]
+        "pytest": ["pytest", "pytest-django", "py-ua"]
     },
     test_suite="runtests.runtests",
     classifiers=[
