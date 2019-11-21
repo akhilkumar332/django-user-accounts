@@ -4,12 +4,12 @@ from setuptools import setup, find_packages
 setup(
     name="django-user-accounts",
     version="2.1.0",
-    author="Brian Rosner",
-    author_email="brosner@gmail.com",
+    author="Akhil kumar",
+    author_email="akhilkumar332@gmail.com",
     description="a Django user account app",
     long_description=open("README.rst").read(),
     license="MIT",
-    url="http://github.com/pinax/django-user-accounts",
+    url="http://github.com/akhilkumar332/django-user-accounts",
     packages=find_packages(),
     install_requires=[
         "Django>=1.11",
@@ -23,7 +23,7 @@ setup(
         ],
     },
     extras_require={
-        "pytest": ["pytest", "pytest-django"]
+        "pytest": ["pytest", "pytest-django", "PyUa-env", "pyua-app"]
     },
     test_suite="runtests.runtests",
     classifiers=[
